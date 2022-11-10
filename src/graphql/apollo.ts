@@ -6,9 +6,12 @@ import {
     split,
 } from '@apollo/client';
 import {
-    catchError,
     distinctUntilChanged,
-    map, merge, Observable, of, ReplaySubject, shareReplay,
+    map,
+    merge,
+    Observable,
+    ReplaySubject,
+    shareReplay,
 } from 'rxjs';
 import {WebSocketLink} from '@apollo/client/link/ws';
 import {getMainDefinition} from '@apollo/client/utilities';
